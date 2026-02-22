@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import applogo from './assets/image.png'
-
+import martlogo from './assets/manu.jpeg'
 import './App.css'
 
 function App() {
@@ -9,22 +8,25 @@ function App() {
   return (
     <>
       <div>
-      
-        <a href="https://www.cardekho.com/" target="_blank">
-          <img src={applogo} className="logo react" alt="React log" height="4000px" width="200px" />
+        <a href="https://vite.dev" target="_blank">
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={martlogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Manu mart</h1>
+      <h1>ಮನು ಮಾರ್ಟ್</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <a href="https://www.jiomart.com/?tab=groceries" >
+          <button >
+            click
+          </button>
+        </a>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the organic grocary logos to learn more
+        Click on the click botton learn to more
       </p>
     </>
   )
